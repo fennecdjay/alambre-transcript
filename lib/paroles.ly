@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.18.0"
 
 #(define-markup-list-command (numberedLyric layout props idx lst) (number? cheap-list?)
    (interpret-markup-list layout props
