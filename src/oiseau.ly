@@ -1,9 +1,9 @@
 \include "texte/oiseau.ly"
 
+OiseauTitre = "L'oiseau bléssé de Saint-Martin"
 OiseauMelodie = {
-  \tocItem "L'oiseau bléssé de Saint-Martin"
+  \tocItem \OiseauTitre
   \new Voice = OiseauMelodie {
-    \mkdefault
     \tempo 4 = 150
     \relative c'' {
       \key d \major
@@ -48,13 +48,6 @@ OiseauAccords = {
     }
   }
 }
-
-piece =
-#(define-scheme-function (str) (string?)
-   #{
-   \markup { \fontsize #4 \bold #str }
-   #}
-   )
 
 OiseauPartition =
 \score {
