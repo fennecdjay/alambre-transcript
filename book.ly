@@ -23,7 +23,7 @@
     % Les champs suivants sont centrés
     dedication = \markup { \column { "Au resistants de touts poils" \vspace #1 } }
     title = "Le Bal de l'alambre vol.1"
-    subtitle = "De la veillée au parquet"
+    subtitle = "De la veillée au parquet ..."
     subsubtitle = \markup { \column { "... et de Paris aux monedieres" \vspace #2 } }
     % Les champs suivants sont répartis sur une même ligne, et
     % le champ "instrument" apparaîtra sur les pages suivantes
