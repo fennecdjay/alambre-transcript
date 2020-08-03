@@ -82,7 +82,14 @@ CollineResteParolesneuf =  \markuplist {
   "Mais j’n’ai trouvé qu’l’vent du nord"
 }
 
-#(define CollineResteParoles (list CollineResteParolesdeux CollineResteParolestrois CollineResteParolesquatre
-                        CollineResteParolescinq CollineResteParolessix CollineResteParolessept CollineResteParoleshuit CollineResteParolesneuf))
+#(define CollineResteParoles (list
+  CollineResteParolesdeux
+  CollineResteParolestrois
+  CollineResteParolesquatre
+  CollineResteParolescinq
+  CollineResteParolessix
+  CollineResteParolessept
+  CollineResteParoleshuit
+  CollineResteParolesneuf))
 
 CollineTexte = \reste-paroles \CollineResteParoles

@@ -72,9 +72,8 @@ OiseauResteParoles_quatre = \markuplist {
 }
 
 #(define OiseauResteParolesList (list
-                                 OiseauResteParoles_deux
-                                 OiseauResteParoles_trois
-                                 OiseauResteParoles_quatre
-                                 ))
+   OiseauResteParoles_deux
+   OiseauResteParoles_trois
+   OiseauResteParoles_quatre))
 
 OiseauTexte = \reste-paroles \OiseauResteParolesList

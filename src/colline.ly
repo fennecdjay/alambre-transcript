@@ -36,7 +36,7 @@ CollinePartition =
 
   \header {
     meter = "Madison"
-    piece = \markup { \fontsize #4 \bold "La source de la colline" }
+    piece = "La source de la colline"
   }
   <<
     \new ChordNames {
