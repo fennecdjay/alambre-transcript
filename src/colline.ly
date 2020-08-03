@@ -1,9 +1,10 @@
 \include "texte/colline.ly"
 
+CollineTitre = "La source de la colline"
+
 CollineMelodie = {
-  \tocItem "La source de la colline"
+  \tocItem \CollineTitre
   \relative c' {
-%    \mkdefault
     \key d \major
     \tempo 4 = 110
     \partial 4 fis8 e
@@ -11,7 +12,7 @@ CollineMelodie = {
     \bar ".|:"
     d4. e8 fis4 g8 a ~ | a2 r4 fis8 e |
     d4. e8 fis4 b8 a ~ | a2 r4 b8 cis | \break
-    d2 d8 d d d ~ | ~d2 r4 e8 d |
+    d2 d8 d d d ~ | d2 r4 e8 d |
     cis2 cis8 cis cis cis~ | cis2 r4 d8 cis | \break
     b2 b8 g a b ~ | b2 r4 b8 b |
     a8 a r4 a8 b a a~ | a2 r4 \tiny \lparen fis8 \rparen e \break
@@ -36,7 +37,7 @@ CollinePartition =
 
   \header {
     meter = "Madison"
-    piece = "La source de la colline"
+    piece = \CollineTitre
   }
   <<
     \new ChordNames {
