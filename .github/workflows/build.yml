@@ -28,7 +28,7 @@ jobs:
         sudo apt-get install lilypond
 
     - name: Build the book
-      run: lilypond -I src book.ly
+      run: ./build.sh
 
     - name: Build the site
       run: |
