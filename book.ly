@@ -14,7 +14,7 @@
     scoreTitleMarkup = \markup \page-link #1 {
         \fill-line {
           \null
-          \fontsize #6 \bold \fromproperty #'header:piece
+          \bold { \fontsize #6 \fromproperty #'header:piece }
           \concat { "(" \tiny \fromproperty #'header:meter ")" }
         }
     }

@@ -9,11 +9,11 @@ CollineMelodie = {
     \partial 4 fis8 e
     \break
     \bar ".|:"
-    d4. e8 fis4 g8 a ~ | a2. fis8 e |
-    d4. e8 fis4 b8 a ~ | a2. b8 cis | \break
-    d2 \times 2/3 { d4 d d } | d2. e8 d |
-    cis2 \times 2/3 { cis4 cis c } | cis2. d8 cis | \break
-    b2 \times 2/3 { b4 g a } | b2. b8 b |
+    d4. e8 fis4 g8 a ~ | a2 r4 fis8 e |
+    d4. e8 fis4 b8 a ~ | a2 r4 b8 cis | \break
+    d2 d8 d d d ~ | ~d2 r4 e8 d |
+    cis2 cis8 cis cis cis~ | cis2 r4 d8 cis | \break
+    b2 b8 g a b ~ | b2 r4 b8 b |
     a8 a r4 a8 b a a~ | a2 r4 \tiny \lparen fis8 \rparen e \break
     \bar ":|."
   }
