@@ -27,11 +27,13 @@ jobs:
         sudo apt-get update
         sudo apt-get install lilypond
 
-    # Runs a single command using the runners shell
     - name: Build the book
+      run: lilypond -I src book.ly
+
+    - name: Build the site
       run: |
-        lilypond test.ly
-        cp book.pdf site
+        mkdir site
+        cp README.md book.pdf site
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
