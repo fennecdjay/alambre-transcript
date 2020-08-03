@@ -22,6 +22,11 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    - name: dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install lilypond
+
     # Runs a single command using the runners shell
     - name: Use docker
-      run: docker run --tty --interactive --volume ${PWD}:/app meedew/lilypond test.ly
+      run: lilypond test.ly
