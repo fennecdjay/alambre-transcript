@@ -28,5 +28,13 @@ jobs:
         sudo apt-get install lilypond
 
     # Runs a single command using the runners shell
-    - name: Use docker
-      run: lilypond test.ly
+    - name: Build the book
+      run: |
+        lilypond test.ly
+        cp book.pdf site
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./site
