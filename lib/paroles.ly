@@ -65,6 +65,6 @@ reste-paroles =
   (lst)
   (cheap-list?)
   #{
-    \reste-paroles-sz #lst #4
+    \reste-paroles-sz #lst #3
   #}
   )

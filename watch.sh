@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 function cleanup {
   kill $MUPDF_PID
 }
@@ -7,7 +9,11 @@ function cleanup {
 trap cleanup EXIT
 
 wait() {
-  inotifywait -q -r src -r lib --format "%w%f" book.ly > /dev/null
+  inotifywait -q -r src -r lib -r book.ly --format "%w%f" book.ly > /dev/null
+}
+
+check_mupdf() {
+  ps -q $MUPDF_PID > /dev/null || return 1
 }
 
 launch_mupdf() {
@@ -16,14 +22,19 @@ launch_mupdf() {
 }
 
 ensure_mupdf() {
-  ps -q $MUPDF_PID > /dev/null || launch_mupdf
+  check_mupdf || launch_mupdf
+}
+
+refresh_mupdf() {
+  check_mupdf && kill -HUP $MUPDF_PID
 }
 
 launch_mupdf
+
 while true
 do
   ensure_mupdf
   wait
   ./build.sh
-  kill -HUP $MUPDF_PID
+  refresh_mupdf
 done

@@ -33,7 +33,7 @@
 
       fis4 fis8 fis g fis g fis | e4 g b r |
       e,4 e8 e fis e cis e | d2 r |
-      \break \noPageBreak
+      \break 
       \bar "|."
     }
   }

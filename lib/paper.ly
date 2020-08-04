@@ -4,14 +4,15 @@
   (set! song-count (+ song-count 1))
   (interpret-markup layout props
     #{
-      \markup { \concat { \numberedMarkup #song-count \tocItemWithDotsMarkup } }
+      \markup { \fontsize #2 \concat { \numberedMarkup #song-count \tocItemWithDotsMarkup } }
     #})
  )
+
 \paper {
-%  tocItemMarkup = \markup { \concat { \numberedMarkup #song-count \tocItemWithDotsMarkup } }
+
   tocItemMarkup = \markup \numberedTocItem
 
-  tocTitleMarkup = \markup \huge \column {
+  tocTitleMarkup = \markup \fontsize #4 \column {
     \fill-line { \null "Sommaire" \null }
     \null
   }
@@ -23,4 +24,9 @@
         \concat { "(" \tiny \fromproperty #'header:meter ")" }
       }
   }
+}
+
+\paper {
+  system-system-spacing.padding = #0.7  %fit staves closer together
+  system-system-spacing.stretchability = #3  %how flexible the spacing is
 }
