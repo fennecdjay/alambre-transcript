@@ -1,13 +1,21 @@
 \version "2.18.0"
 
+#(define-markup-list-command (numberedMarkup layout props idx) (number?)
+   (interpret-markup-list layout props
+                          #{
+                            \markuplist  {
+                                \bold { #(number->string idx) ". " }
+                            }
+                          #})
+)
 #(define-markup-list-command (numberedLyric layout props idx lst) (number? cheap-list?)
    (interpret-markup-list layout props
                           #{
                             \markuplist  {
                               \concat {
-                                \bold #(number->string idx)
-                                \bold "."
-                                \column #(car lst)
+                                %\bold { #(number->string idx) ". " }
+                                \numberedMarkup #idx
+                               \column #(car lst)
                               }
                             }
                           #})
