@@ -1,6 +1,6 @@
-#(define Title "L'temps du trois temps")
+#(define Title "title")
 
-#(define Style "Valse")
+#(define Style "style")
 
 \include "melody/temps.ly"
 \include "lyrics/temps.ly"

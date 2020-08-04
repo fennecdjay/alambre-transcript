@@ -2,8 +2,6 @@
 
 #(define Style "Madison")
 
-#(define Indent 150)
-
 \include "melody/colline.ly"
 \include "lyrics/colline.ly"
 \include "chords/colline.ly"
