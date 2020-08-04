@@ -1,7 +1,7 @@
 #(define Melody #{
   \new Voice = Melody {
 
-    \key ees \major
+    \key c \major
     \tempo 4 = 120
     \time 4/4
 
