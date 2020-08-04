@@ -2,9 +2,9 @@
 
 #(define Style "style")
 
-\include "melody/temps.ly"
-\include "lyrics/temps.ly"
-\include "chords/temps.ly"
-\include "remain/temps.ly"
+\include "melody/template.ly"
+\include "lyrics/template.ly"
+\include "chords/template.ly"
+\include "remain/template.ly"
 
 \include "layout.ly"
