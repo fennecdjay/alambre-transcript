@@ -33,4 +33,8 @@
   \include "oiseau.ly"
   \include "fleurs.ly"
   \include "temps.ly"
+%  \include "maquis.ly"
+%  \include "arbre.ly"
+%  \include "innocent.ly"
+%  \include "salut.ly"
 }
