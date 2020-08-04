@@ -5,9 +5,9 @@
 \book {
   \header {
     dedication = \markup { \column { "Au resistants de touts poils" \vspace #1 } }
-    title = "Le Bal de l'alambre vol.1"
+    title = "Le Bal de l'alambre"
     subtitle = "De la veillée au parquet ..."
-    subsubtitle = \markup { \column { "... et de Paris aux monedieres" \vspace #2 } }
+    subsubtitle = \markup { \column { "... et de Paris aux monédières" \vspace #2 } }
   }
   \markup {
     \vspace #2
