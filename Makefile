@@ -60,6 +60,7 @@ define check_pdf
 endef
 
 watch:
+	@make -s
 	@trap 'kill $$MUPDF_PID' EXIT;                  \
   $(call launch_pdf);                             \
   while true;                                     \
