@@ -6,8 +6,8 @@
   Et même sans dout’ celle de Cent Ans
   Me dit tam bour bat tant :
 
-  Pour quoi chan te- tu tant ?
-  Mais ! Par di ! Parce que j’ai me le vent !
+  Pour quoi chan te- tu tant?
+  Mais! Par di! Parce que j’ai me le vent!
 
   } % end of \new Lyrics
 #}) % end of define
