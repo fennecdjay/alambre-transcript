@@ -13,3 +13,7 @@ transcription des chansons de Jean Alambre
   * [La source de la colline](colline-single.pdf)
   * [Le marché aux fleurs](fleurs-single.pdf)
   * [L'temps du trois temps](temps-single.pdf)
+  * [Le maquis corrézien](maquis-single.pdf)
+  * [L'arbre](arbre-single.pdf)
+  * [L'innocent](innocent-single.pdf)
+  * [Je vous salue](salue-single.pdf)
