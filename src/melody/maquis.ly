@@ -1,5 +1,6 @@
 #(define Melody #{
   \new Voice = Melody {
+    \autoPageBreaksOff
 
     \key d \major
     \tempo 4 = 120
@@ -24,6 +25,8 @@
       e4. fis8 e4. d8 | d2 r | \break
       }      
     }
+
+    \autoPageBreaksOn
   } % end of \new Voice
 #}) % end of define
 

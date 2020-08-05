@@ -1,5 +1,6 @@
 #(define Melody #{
   \new Voice = Melody {
+    \autoPageBreaksOff
 
     \key ees \major
     \tempo 4 = 200
@@ -23,6 +24,8 @@
       ees2.    ~| ees        | r        | r          | \break
       \bar "|."
     }
+
+    \autoPageBreaksOn
   } % end of \new Voice
 #}) % end of define
 

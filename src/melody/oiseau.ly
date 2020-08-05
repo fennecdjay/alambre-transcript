@@ -36,9 +36,9 @@
       \break 
       \bar "|."
     }
-  }
 
-  \autoPageBreaksOn
+    \autoPageBreaksOn
+  }
 #})
 
 #(define Indent 0)
