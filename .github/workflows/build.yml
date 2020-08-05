@@ -24,10 +24,12 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Install lilypond
-      run: sudo apt-get install lilypond
+      run: |
+        wget https://lilypond.org/download/binaries/linux-64/lilypond-2.20.0-1.linux-64.sh
+        bash lilypond-2.20.0-1.linux-64.sh
 
     # Runs a set of commands using the runners shell
     - name: Build pdfs
       run: |
         rm *.pdf
-        make
+        PATH=$PATH:$PWD/lilypond/usr/bin make
