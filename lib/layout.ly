@@ -1,5 +1,3 @@
-\tocItem \markup { \Title \tiny \concat { "(" \Style ")" } }
-
 \score {
   \layout {
     #(layout-set-staff-size 22)
@@ -9,7 +7,6 @@
       metronomeMarkFormatter = #format-metronome-markup-approx
     }
   }
-
 
   \header {
     piece = \Title

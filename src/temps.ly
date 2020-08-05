@@ -7,4 +7,6 @@
 \include "chords/temps.ly"
 \include "remain/temps.ly"
 
+\tocItem \markup { \Title \tiny \concat { "(" \Style ")" } }
+
 \include "layout.ly"

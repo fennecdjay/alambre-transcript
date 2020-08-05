@@ -7,4 +7,6 @@
 \include "chords/colline.ly"
 \include "remain/colline.ly"
 
+\tocItem \markup { \Title \tiny \concat { "(" \Style ")" } }
+
 \include "layout.ly"

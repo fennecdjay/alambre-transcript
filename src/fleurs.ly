@@ -7,4 +7,6 @@
 \include "chords/fleurs.ly"
 \include "remain/fleurs.ly"
 
+\tocItem \markup { \Title \tiny \concat { "(" \Style ")" } }
+
 \include "layout.ly"

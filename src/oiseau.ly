@@ -7,4 +7,6 @@
 \include "chords/oiseau.ly"
 \include "remain/oiseau.ly"
 
+\tocItem \markup { \Title \tiny \concat { "(" \Style ")" } }
+
 \include "layout.ly"

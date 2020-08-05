@@ -7,4 +7,6 @@
 \include "chords/arbre.ly"
 \include "remain/arbre.ly"
 
+\tocItem \markup { \Title \tiny \concat { "(" \Style ")" } }
+
 \include "layout.ly"

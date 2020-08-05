@@ -7,4 +7,6 @@
 \include "chords/maquis.ly"
 \include "remain/maquis.ly"
 
+\tocItem \markup { \Title \tiny \concat { "(" \Style ")" } }
+
 \include "layout.ly"
