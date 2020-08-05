@@ -38,7 +38,7 @@ book.pdf: ${deps} book.ly
 
 .PHONY: single
 single:
-	@make -s ${SINGLE}-single.pdf SINGLE=${SINGLE}
+	+@make -s ${SINGLE}-single.pdf SINGLE=${SINGLE}
 
 ${SINGLE}-single.pdf: ${lib} ${deps} ${single}
 	@${LY} ${LY_ARGS} single/${SINGLE}-single.ly
