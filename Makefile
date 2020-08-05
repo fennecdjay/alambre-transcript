@@ -72,7 +72,6 @@ watch:
 
 .PHONY: site
 site:
-	@rm -r site
 	@mkdir site
 	@cp book.pdf site
 	@make -s site-readme > site/README.md
