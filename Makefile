@@ -73,6 +73,7 @@ watch:
 .PHONY: site
 site:
 	@mkdir site
+	@echo "theme: jekyll-theme-tactile" > _config.yml
 	@cp book.pdf site
 	@make -s site-readme > site/README.md
 
