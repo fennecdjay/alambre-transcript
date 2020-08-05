@@ -25,21 +25,21 @@ endif
 deps = ${lib} ${src} ${melody} ${lyrics} ${chords} ${remain}
 
 all: ${single}
-	@for file in ${src}; \
+	for file in ${src}; \
 	do\
     make -s single SINGLE=$$(sed 's#src/\(.*\).ly#\1#' <<< $${file});\
 	done
-	@make -s book.pdf
+	make -s book.pdf
 
 book.pdf: ${deps} book.ly
-	@${LY} ${LY_ARGS} book.ly
+	${LY} ${LY_ARGS} book.ly
 
 .PHONY: single
 single:
-	@make -s ${SINGLE}-single.pdf SINGLE=${SINGLE}
+	make -s ${SINGLE}-single.pdf SINGLE=${SINGLE}
 
 ${SINGLE}-single.pdf: ${lib} ${deps} ${single}
-	@${LY} ${LY_ARGS} single/${SINGLE}-single.ly
+	${LY} ${LY_ARGS} single/${SINGLE}-single.ly
 
 new:
 	@if [ -z ${NEW}  ]; then echo "usage: make generate NEW=<filename>" && exit 1; fi
