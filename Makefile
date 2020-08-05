@@ -4,6 +4,8 @@ LY        ?= lilypond
 LY_ARGS   ?= -I src -I lib
 WAIT      ?= inotifywait
 WAIT_ARGS ?= -q -r src -r lib book.ly
+LINK      ?=
+PDF       ?=
 
 lib    = $(wildcard lib/*.ly)
 ifndef SINGLE
@@ -67,3 +69,28 @@ watch:
     make -s;                                     \
     $(call check_pdf) && kill -HUP $${MUPDF_PID}; \
   done
+
+.PHONY: site
+site:
+	@rm -r site
+	@mkdir site
+	@cp book.pdf site
+	@make -s site-readme > site/README.md
+
+site-readme:
+	@printf "# Transcription de chansons de Jean Alambre\n\n"
+	@printf "## Le recueil\n\n"
+	@printf "[Le bal de L'alambre](book.pdf)\n\n"
+	@for file in *-single.pdf; \
+   do cp *.pdf site;         \
+   done
+	@printf "## Morceaux séparés\n\n"
+	@for file in ${src}; \
+	 do\
+     printf "  * "; \
+     make -s link LINK=$$(basename $${file} .ly);\
+   done
+
+link:
+	@if [ -z ${LINK}  ]; then echo "usage: make link LINK=<filename>" && exit 1; fi
+	@echo "[$$(cat src/${LINK}.ly | grep Title | cut -f 2 -d '"')](${LINK}-single.pdf)"
