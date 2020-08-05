@@ -10,17 +10,17 @@
       bes4. ges8 ges4 ges |
       aes4. f8 r2       |
       r4. ges8 \times 2/3 { ges4 ges aes } |
-      f1 | \break
+      f2 r | \break
 
       bes4. ges8 ges4 ges |
       aes4. f8 r2       |
       r4. ges8 \times 2/3 { ges4 f ees } |
-      f1 | \break
+      f2 r | \break
 
       r4. ees8 \times 2/3 { ees4 f ges } |
       aes4. f8 r2       |
       r4. ges8 \times 2/3 { f4 ges aes } |
-      bes2 r2  | \break
+      bes1  | \break
 
 
       bes4. bes8 ces4 bes |
