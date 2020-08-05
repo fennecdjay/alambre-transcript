@@ -1,5 +1,3 @@
-\version "2.18.0"
-
 #(define-markup-list-command (numberedMarkup layout props idx) (number?)
    (interpret-markup-list layout props
                           #{
