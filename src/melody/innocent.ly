@@ -19,7 +19,7 @@
       des4. des8 c des c bes ~ |
       bes2 r | \break
 
-      bes'8 bes4 f8 ees f ees des~ |
+      bes'8 bes4. ees f ees des~ |
       des2 r4. f8 |
       bes8 bes bes bes a f a bes ~|
       bes2 r | \bar "||" \break

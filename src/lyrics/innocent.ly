@@ -4,7 +4,7 @@
     Un jour un an cien com bat tant
     Qu’a vait fait les dix der nièr’s guer res
     Et même sans dout’ celle de Cent Ans
-    Me dit tam bour bat tant :
+    Me dit tam bour bat tant:
 
     Pour quoi chan te- tu tant?
     Mais! Par di! Parce que j’ai me le vent!
