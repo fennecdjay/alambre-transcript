@@ -23,8 +23,8 @@
       bes1  | \break
 
 
-      bes4. bes8 ces4 bes |
-      aes4. ces8 bes4 aes |
+      bes4 r8 bes ces4 bes |
+      aes4 r8 ces8 bes4 aes |
       ges4 r f r |
       ees2         \small {ees8_"(instrumental)" f ges aes | \bar "||" \break
 

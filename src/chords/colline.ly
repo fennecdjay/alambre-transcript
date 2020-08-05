@@ -1,4 +1,4 @@
-#(define Chords #{{
+#(define Chords #{
 \chords {
   \set chordChanges = ##t
   \set noChordSymbol = ##f
@@ -10,4 +10,4 @@
   g       |q     | a:7   | d   |
 
 }
-}#})
+#})

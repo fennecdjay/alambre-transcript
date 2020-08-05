@@ -10,6 +10,7 @@
   "Au devant de leurs citadelles"
   "Ils ne marcheraient plus en vain."
 
+  \vspace #1
   "Mais il nous restera toujours"
   "La mélodie qu'à l'unisson"
   "Tous ensemble nous écrivions"
@@ -27,6 +28,7 @@
   "Sauter les flaques à cloche pied"
   "Rien que pour vous faire rigoler."
 
+  \vspace #1
   "Mais il nous restera toujours"
   "La mélodie qu'à l'unisson"
   "Tous ensemble nous écrivions"

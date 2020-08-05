@@ -14,8 +14,8 @@
   "L’temps du « Trois temps »"
   "On l’emportait avec nos frites"
   "Ca sentait bon"
-  "Et Ferré chantait Aragon"
 
+  "Et Ferré chantait Aragon"
   "Jusqu’à ce jour de « cinquante-huit »"
   "Qui paralysa les moulins"
 }#}
@@ -35,9 +35,10 @@
   "Ma lo tri temp"
   "Un jorn ei parti in balado"
   "E l’occitan"
-  "Anueich li dresso sa teulado"
 
+  "Anueich li dresso sa teulado"
   "Enquièr’ n’o pitito tornado"
   "E lo tri temp siera sauvatz"
 }#}
+
 ))
