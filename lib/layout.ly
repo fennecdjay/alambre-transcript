@@ -21,5 +21,3 @@
 }
 
 \reste-paroles \Remain
-
-\pageBreak

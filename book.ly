@@ -29,12 +29,12 @@
 
   \pageBreak
 
-  \include "colline.ly"
-  \include "oiseau.ly"
-  \include "fleurs.ly"
-  \include "temps.ly"
-  \include "maquis.ly"
-  \include "arbre.ly"
-  \include "innocent.ly"
-  \include "salue.ly"
+  \include "colline.ly"  \pageBreak
+  \include "oiseau.ly"   \pageBreak
+  \include "fleurs.ly"   \pageBreak
+  \include "temps.ly"    \pageBreak
+  \include "maquis.ly"   \pageBreak
+  \include "arbre.ly"    \pageBreak
+  \include "innocent.ly" \pageBreak
+  \include "salue.ly"    \pageBreak
 }
