@@ -32,4 +32,4 @@ jobs:
     - name: Build pdfs
       run: |
         rm *.pdf
-        PATH=$PATH:$PWD/lilypond/usr/bin make
+        PATH=$PATH:$PWD/bin make
