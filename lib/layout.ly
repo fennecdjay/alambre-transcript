@@ -8,10 +8,12 @@
     }
   }
 
+  #(if (= hide-header 0) #{
   \header {
     piece = \Title
     meter = \Style
   }
+  #})
 
   <<
     \Chords
@@ -20,4 +22,15 @@
   >>
 }
 
-\reste-paroles \Remain
+#(display Title)
+#(display ":")
+#(display paroles-column)
+#(display "\n")
+%#(if (= paroles-column 0)
+%  #{
+    \reste-paroles \Remain
+%  #}
+%)
+%  #{
+%    \reste-paroles \Remain
+%  #})

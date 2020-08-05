@@ -13,7 +13,7 @@
 }#}
 
 #{ \markuplist {
-  "Je connais un arbre"
+  "Je connais un arbre        "
   "Qui n’a pas volé"
   "Les amours d’antan"
   "Qu’il a protégées"
@@ -37,8 +37,8 @@
 }#}
 
 #{ \markuplist {
-  "Je connais un arbre"
-  "Sous tous ses aspects"
+\line {  "Je connais un arbre" }
+\line {  "Sous tous ses aspects" }
   "Et sais qu’en dedans"
   "Brille le respect"
 
@@ -61,7 +61,7 @@
 }#}
 
 #{ \markuplist {
-  "Je connais un arbre"
+  "Je connais un arbre       "
   "Fort et bien planté"
   "Par delà les sentes"
   "Par trop galvaudées"

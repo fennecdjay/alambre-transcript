@@ -11,14 +11,3 @@
 
 }
 }#})
-
-#(define Chords2 #{{
-\chords {
-  \set chordChanges = ##t
-  \set noChordSymbol = ##f
-
-  bes2:m ees:m  | bes1:m | ges2 f:7 | bes1 |
-  bes2:m ees:m  | bes1:m | ges2 f:7 | bes1 |
-
-}
-}#})

@@ -1,5 +1,8 @@
+#(define hide-header 0)
+#(define paroles-column 0)
+
 \include "paroles.ly"
 \include "musique.ly"
-\include "header.ly"
+\include "header-common.ly"
 \include "paper.ly"
 \include "tempo.ly"

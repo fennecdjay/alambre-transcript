@@ -9,4 +9,6 @@
 
 \tocItem \markup { \Title \tiny \concat { "(" \Style ")" } }
 
+#(set! paroles-column 1)
 \include "layout.ly"
+#(set! paroles-column 0)

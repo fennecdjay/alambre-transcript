@@ -13,7 +13,7 @@
                               \concat {
                                 %\bold { #(number->string idx) ". " }
                                 \numberedMarkup #idx
-                               \column #(car lst)
+\column                               #(car lst)
                               }
                             }
                           #})
@@ -39,7 +39,32 @@
        )
    )
 
-#(define-markup-list-command (reste-paroles layout props lst) (cheap-list?)
+reste-paroles-interne-column =
+#(define-markup-list-command (reste-paroles-interne-column layout props idx lst) (number? cheap-list?)
+   (if (pair? (cdr lst))
+       (interpret-markup-list layout props
+                              #{
+                                \markuplist  {
+                                  \fill-line {
+                                    \numberedLyric #idx #lst
+                                    \hspace #2
+                                    \numberedLyric #(+ 1 idx) #(cdr lst)
+                                  }
+                                  \vspace #1
+                                  \reste-paroles-interne-column #(+ 2 idx) #(cddr lst)
+                                }
+                              #}
+                              )
+       (interpret-markup-list layout props
+                              #{
+                                \markuplist \numberedLyric #idx #lst
+                              #}
+                              )
+
+       )
+   )
+
+#(define-markup-list-command (reste-paroles-inner layout props lst) (cheap-list?)
    (interpret-markup-list layout props
                           #{
                             \markuplist {
@@ -52,17 +77,33 @@
 reste-paroles-sz =
 #(define-scheme-function
   (lst sz) (cheap-list? number?)
+  (if (not (null-list? lst))
   #{ \markuplist {
     \fontsize #sz
-    \reste-paroles #lst
-  } #})
+    \reste-paroles-inner #lst
+  } #}))
 
 
 reste-paroles =
 #(define-scheme-function
   (lst)
   (cheap-list?)
+(display "Titre:")
+(display Title)
+(display paroles-column)
+(display "\n")
+  (if(= paroles-column 0)
   #{
     \reste-paroles-sz #lst #3
   #}
+  #{
+    \markuplist {
+      \fontsize #3
+      \reste-paroles-interne-column #2 #lst
+    }
+  #}
+
+  )
+
+
   )

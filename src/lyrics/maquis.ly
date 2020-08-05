@@ -8,7 +8,7 @@
     Toi le vieil lard, toi l'an cien
     Tu en as te llement par lé   
     Prés du feu, à la veil lée
-    Qu'ils sont presque des co pains
+    Qu'ils sont pres que des co pains
 
 
     Je ne les ai pas con nus
