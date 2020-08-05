@@ -27,7 +27,7 @@ deps = ${lib} ${src} ${melody} ${lyrics} ${chords} ${remain}
 all: ${single}
 	for file in ${src}; \
 	do\
-    make -s single SINGLE=$$(sed 's#src/\(.*\).ly#\1#' <<< $${file});\
+    make -s single SINGLE=$$(echo $${file}} | sed 's#src/\(.*\).ly#\1#');\
 	done
 	make -s book.pdf
 
