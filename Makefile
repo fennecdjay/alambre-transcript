@@ -94,3 +94,6 @@ site-readme:
 link:
 	@if [ -z ${LINK}  ]; then echo "usage: make link LINK=<filename>" && exit 1; fi
 	@echo "[$$(cat src/${LINK}.ly | grep Title | cut -f 2 -d '"')](${LINK}-single.pdf)"
+
+clean:
+	@rm -rf *.pdf site
