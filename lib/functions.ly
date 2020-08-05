@@ -2,3 +2,4 @@
 \include "musique.ly"
 \include "header.ly"
 \include "paper.ly"
+\include "tempo.ly"
