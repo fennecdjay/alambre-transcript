@@ -31,3 +31,12 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Build pdfs
       run: PATH=$PATH:~/bin make
+
+    - name: Build site
+      run: make site
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./site
