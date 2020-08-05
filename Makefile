@@ -46,7 +46,7 @@ new:
 	@for file in $$(find . -type f -name "template*.ly"); \
    do                                                   \
      name=$$(sed "s/template/${NEW}/" <<< $$file);      \
-     sed "s/template/${NEW}/" "$$file" > "$$name";      \
+     [ -f $$name ] || sed "s/template/${NEW}/" "$$file" > "$$name";      \
    done
 
 define launch_pdf
