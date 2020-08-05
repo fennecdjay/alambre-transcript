@@ -79,12 +79,10 @@ reste-paroles-interne-column =
 reste-paroles-sz =
 #(define-scheme-function
   (lst sz) (cheap-list? number?)
-  (if (not (null-list? lst))
   #{ \markuplist {
     \fontsize #sz
     \reste-paroles-inner #lst
-  } #}))
-
+  } #})
 
 reste-paroles =
 #(define-scheme-function

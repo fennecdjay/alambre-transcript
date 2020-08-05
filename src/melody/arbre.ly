@@ -26,7 +26,22 @@
       bes4. bes8 ces4 bes |
       aes4. ces8 bes4 aes |
       ges4 r f r |
-      ees2 r | \break
+      ees2         ees8^"(instrumental)" f ges aes | \bar "||" \break
+
+      \bar ".|:"
+      bes4 bes ces aes |
+      bes ges ees8 f ges aes | 
+      bes4 bes aes ges | 
+      f2 ees8 f ges aes | \break
+
+      bes4 bes ces aes |
+      bes ges ees8 f ges aes | 
+      bes4 bes aes ges | 
+      f2 bes,8 des f des | \break
+
+      ees1 ~|
+      ees |
+      r | r | \bar "|." \break
     }
 
     \autoPageBreaksOn

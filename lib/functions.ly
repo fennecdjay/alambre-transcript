@@ -1,4 +1,3 @@
-#(define hide-header 0)
 #(define paroles-column 0)
 
 \include "paroles.ly"

@@ -8,12 +8,10 @@
     }
   }
 
-  #(if (= hide-header 0) #{
   \header {
     piece = \Title
     meter = \Style
   }
-  #})
 
   <<
     \Chords

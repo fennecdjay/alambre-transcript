@@ -39,7 +39,7 @@
       a2 r8 b a g               | \break
 
       g1 | fis | e2 ~e8 fis e d | d2 r8 b' a g \break
-      g1 | r | r| r | \break
+      g1 | r | r| r | \bar "|." \break
     }
 
     \autoPageBreaksOn
