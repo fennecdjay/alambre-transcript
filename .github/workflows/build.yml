@@ -30,6 +30,4 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: Build pdfs
-      run: |
-        rm *.pdf
-        PATH=$PATH:~/bin make
+      run: PATH=$PATH:~/bin make
