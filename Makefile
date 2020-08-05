@@ -59,11 +59,11 @@ endef
 
 watch:
 	trap 'kill $$MUPDF_PID' EXIT;                   \
-  while true;                                     \
   $(call launch_pdf);                             \
+  while true;                                     \
   do                                              \
-    $(call check_pdf) || $(call launch_pdf);      \
+    $(call check_pdf) || ($(call launch_pdf));      \
     ${WAIT} ${WAIT_ARGS} > /dev/null;             \
-    make - S;                                     \
+    make -s;                                     \
     $(call check_pdf) && kill -HUP $${MUPDF_PID}; \
   done
