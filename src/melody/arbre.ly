@@ -9,24 +9,24 @@
     \relative c'' {
       bes4. ges8 ges4 ges |
       aes4. f8 r2       |
-      r4. ges8 ges ges r aes |
+      r4. ges8 \times 2/3 { ges4 ges aes } |
       f1 | \break
 
       bes4. ges8 ges4 ges |
       aes4. f8 r2       |
-      r4. ges8 ges ges r ees |
+      r4. ges8 \times 2/3 { ges4 f ees } |
       f1 | \break
 
       r4. ees8 \times 2/3 { ees4 f ges } |
       aes4. f8 r2       |
-      r4. ges8 \times 2/3 { ges4 ges aes } |
+      r4. ges8 \times 2/3 { f4 ges aes } |
       bes2 r2  | \break
 
 
       bes4. bes8 ces4 bes |
       aes4. ces8 bes4 aes |
       ges4 r f r |
-      ees2         ees8^"(instrumental)" f ges aes | \bar "||" \break
+      ees2         \small {ees8_"(instrumental)" f ges aes | \bar "||" \break
 
       \bar ".|:"
       bes4 bes ces aes |
@@ -42,6 +42,7 @@
       ees1 ~|
       ees |
       r | r | \bar "|." \break
+}
     }
 
     \autoPageBreaksOn

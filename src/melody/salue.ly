@@ -7,7 +7,7 @@
     \time 4/4
 
     \relative c'' {
-      g4 g8 g4 g8 g4            |
+      g4 g8 g4 g8 a4            |
       fis2 r                    |
       e4 fis8 g4 fis8 e4        |
       fis2 r                    | \break
