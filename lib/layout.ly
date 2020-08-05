@@ -22,15 +22,4 @@
   >>
 }
 
-#(display Title)
-#(display ":")
-#(display paroles-column)
-#(display "\n")
-%#(if (= paroles-column 0)
-%  #{
-    \reste-paroles \Remain
-%  #}
-%)
-%  #{
-%    \reste-paroles \Remain
-%  #})
+\reste-paroles \Remain

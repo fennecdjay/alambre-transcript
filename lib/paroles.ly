@@ -1,23 +1,25 @@
 #(define-markup-list-command (numberedMarkup layout props idx) (number?)
-   (interpret-markup-list layout props
-                          #{
-                            \markuplist  {
-                                \bold { #(number->string idx) ". " }
-                            }
-                          #})
+  (interpret-markup-list layout props
+    #{
+      \markuplist  {
+        \bold { #(number->string idx) ". " }
+      }
+    #}
+  )
 )
+
 #(define-markup-list-command (numberedLyric layout props idx lst) (number? cheap-list?)
-   (interpret-markup-list layout props
-                          #{
-                            \markuplist  {
-                              \concat {
-                                %\bold { #(number->string idx) ". " }
-                                \numberedMarkup #idx
-\column                               #(car lst)
-                              }
-                            }
-                          #})
-   )
+  (interpret-markup-list layout props
+    #{
+      \markuplist  {
+        \concat {
+          \numberedMarkup #idx
+          \column #(car lst)
+        }
+      }
+    #}
+  )
+)
 
 #(define-markup-list-command (reste-paroles-interne layout props idx lst) (number? cheap-list?)
    (if (pair? (cdr lst))
@@ -65,7 +67,7 @@ reste-paroles-interne-column =
    )
 
 #(define-markup-list-command (reste-paroles-inner layout props lst) (cheap-list?)
-   (interpret-markup-list layout props
+  (interpret-markup-list layout props
                           #{
                             \markuplist {
                               \reste-paroles-interne #2 #lst
@@ -88,10 +90,6 @@ reste-paroles =
 #(define-scheme-function
   (lst)
   (cheap-list?)
-(display "Titre:")
-(display Title)
-(display paroles-column)
-(display "\n")
   (if(= paroles-column 0)
   #{
     \reste-paroles-sz #lst #3
