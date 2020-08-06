@@ -1,6 +1,7 @@
 #(define Title "L'oiseau bléssé de Saint-Martin")
 
-#(define Style "Marche Swing")
+% Marche Swing
+#(define Style "QuickStep")
 
 \include "melody/oiseau.ly"
 \include "lyrics/oiseau.ly"

@@ -1,6 +1,6 @@
 #(define Title "Le maquis corrézien")
 
-#(define Style "style")
+#(define Style "Baïon")
 
 \include "melody/maquis.ly"
 \include "lyrics/maquis.ly"

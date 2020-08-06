@@ -1,6 +1,6 @@
 #(define Title "Je vous salue")
 
-#(define Style "style")
+#(define Style "Beguine")
 
 \include "melody/salue.ly"
 \include "lyrics/salue.ly"

@@ -1,6 +1,6 @@
 #(define Title "L'innocent")
 
-#(define Style "Madison")
+#(define Style "Slowfox")
 
 \include "melody/innocent.ly"
 \include "lyrics/innocent.ly"

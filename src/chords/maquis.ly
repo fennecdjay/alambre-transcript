@@ -9,8 +9,17 @@
     }
   }
 
-  \repeat unfold 4 {
+  % pre-refrain
+  \repeat unfold 2 {
 	  g1     | d      | a:7    | d
   }
+
+  % refrain
+  \repeat unfold 2 {
+	  g1     | d      | a:7    | d
+  }
+
+  % instru
+  g1     | d      | a:7    | d
 }
 #})

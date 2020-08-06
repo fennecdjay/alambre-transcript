@@ -1,6 +1,7 @@
 #(define Title "Le marché aux fleurs")
 
-#(define Style "Madison")
+% Madison
+#(define Style "FoxTrot")
 
 \include "melody/fleurs.ly"
 \include "lyrics/fleurs.ly"

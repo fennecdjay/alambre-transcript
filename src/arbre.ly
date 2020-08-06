@@ -1,6 +1,6 @@
 #(define Title "L' arbre")
 
-#(define Style "style")
+#(define Style "Bachata")
 
 \include "melody/arbre.ly"
 \include "lyrics/arbre.ly"
