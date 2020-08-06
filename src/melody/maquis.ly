@@ -10,12 +10,12 @@
 
        fis4 fis8 fis r fis8 g a |
        a2 r |
-       a4 a8 a r g8 g a |
+       a4 a8 a r g8 g fis |
        fis2 r | \break
 
        fis4 fis8 fis r fis8 g a |
        a2 r |
-       a4 a8 a8 r a g a |
+       a4 a8 a8 r g g fis |
        fis2 r | \break
        \bar "||"
 
