@@ -40,10 +40,13 @@
 
       g1 | 
       fis |
-      e2 ~e8 fis e d | d1~ | \break
-      d1 |
-      r2 r8 b' a g |
-      g1 | r | \bar "|." \break
+      e2 ~e8 fis e d |
+      d1~ | \break
+      d1 ~|
+      d |
+      r |
+      r2 r8 b' a g | \break
+      g1 | r |r | r | \bar "|." \break
     }
 
     \autoPageBreaksOn
