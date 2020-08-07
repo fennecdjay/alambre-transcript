@@ -1,7 +1,3 @@
-# alambre-transcript
-transcription des chansons de Jean Alambre
-
-
 ## Tous les morceaux
 
 [Le Bal de l'Alambre](book.pdf)
