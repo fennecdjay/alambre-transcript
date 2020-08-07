@@ -4,6 +4,7 @@
   "Enchaînée à ses monstres chimères"
   "Plus le temps de flâner en chemin"
   "L’héroïne est parfois éphémère"
+  \vspace #1
   }#}
 
   #{ \markuplist {
@@ -18,6 +19,7 @@
   "Simple virgule froide et rouillée"
   "Tu n’accorderas plus tes violons"
   "Chevalier de la Dame aux Saisons"
+  \vspace #1
   }#}
 
   #{ \markuplist {
@@ -32,6 +34,7 @@
   "A deux pas du Marché aux Fleurs"
   "Une rose un sourire un prénom"
   "Volutes ont rejoint les hauteurs"
+  \vspace #1
   }#}
 
   #{ \markuplist {
