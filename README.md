@@ -1,5 +1,3 @@
-# Transcription de chansons de Jean Alambre
-
 ## Le recueil
 
 [Le bal de L'alambre](book.pdf)
