@@ -6,8 +6,8 @@
   "Qu’escomptait pas finir vicaire"
   "Me dit du bout des dents :"
 
-  "Pourquoi chante-tu tant ?"
-  "Mais ! Pardi ! Parce que j’aime le vent !"
+  \italic "Pourquoi chante-tu tant ?"
+  \italic "Mais ! Pardi ! Parce que j’aime le vent !"
 }#}
 
 #{ \markuplist {
@@ -16,8 +16,8 @@
   "Un de ces critèr’s d’la lumière"
   "M’interroge pourtant :"
 
-  "Pourquoi chante-tu tant ?"
-  "Mais ! Pardi ! Parce que j’aime le vent !"
+  \italic "Pourquoi chante-tu tant ?"
+  \italic "Mais ! Pardi ! Parce que j’aime le vent !"
 }#}
 
 #{ \markuplist {
@@ -26,8 +26,8 @@
   "Pourris d’or, gerbant de diamants"
   "Me fait d’un ton méprisant :"
 
-  "Pourquoi chante-tu tant ?"
-  "Mais ! Pardi ! Parce que j’aime le vent !"
+  \italic "Pourquoi chante-tu tant ?"
+  \italic "Mais ! Pardi ! Parce que j’aime le vent !"
 }#}
 
 #{ \markuplist {
@@ -36,8 +36,8 @@
   "Mais pour qui je n’ai nulle rancune"
   "Me dit d’un air suppliant :"
 
-  "Cesse donc de chanter tant !"
-  "Je me paye sa gueule en chantant !"
+  \italic "Cesse donc de chanter tant !"
+  \italic "Je me paye sa gueule en chantant !"
 }#}
 
 ))
