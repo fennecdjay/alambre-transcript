@@ -10,7 +10,7 @@
       \partial 4 fis8 e
       \break
 
-      d4. e8 fis4 g8 a ~ | a2 r4 fis8 e |
+      d4. e8 fis4 g8 a ~ | a8 e4. r4 fis8 e |
       d4. e8 fis4 b8 a ~ | a2 r4 b8 cis | \break
 
       d2 d8 d d d ~ | d2 r4 e8 d |
