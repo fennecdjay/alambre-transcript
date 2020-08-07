@@ -38,10 +38,10 @@
 
 #{ \markuplist {
   "A la source de la colline"
-  "D’où sont partis nos seize ans"
+  "D’où sont partis nos prénoms"
   "Je suis monté ce matin"
   "J’ai rencontré l’vent du nord"
-  "Il m’a dit « fait pas l’malin !"
+  "Il m’a dit « fait pas l’malin ! »"
   "La grande roue tourn’ encor’"
 }#}
 
