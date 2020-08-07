@@ -10,6 +10,8 @@
     g   b:7 c   d
     g   b:7 c   d
     g   b:7 c   d
+    d   d   g   b:m
+    c   d   d   d
     g   g   g   g
 }
 #})
