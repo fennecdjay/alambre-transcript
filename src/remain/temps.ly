@@ -3,7 +3,7 @@
   "L’temps du « Trois temps » "
   "Vendait l’Huma sur la place Blanche"
   "Par tous les vents"
-  "Ca donnait du cœur aux dimanches"
+  "Ça donnait du cœur aux dimanches"
 
   "L’temps du « Trois temps »"
   "En y r’pensant"
@@ -13,7 +13,7 @@
 #{ \markuplist {
   "L’temps du « Trois temps »"
   "On l’emportait avec nos frites"
-  "Ca sentait bon"
+  "Ça sentait bon"
 
   "Et Ferré chantait Aragon"
   "Jusqu’à ce jour de « cinquante-huit »"
@@ -22,7 +22,7 @@
 
 #{ \markuplist {
   "L’temps du « Trois temps »"
-  "Ca vous mettait comme une prairie"
+  "Ça vous mettait comme une prairie"
   "A l’horizon"
   "Et des montagnes autour d’Paris"
 
