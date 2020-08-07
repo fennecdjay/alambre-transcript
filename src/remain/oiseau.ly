@@ -12,10 +12,10 @@
   "Rien que pour vous faire rigoler."
 
   \vspace #1
-  "Mais il nous restera toujours"
-  "La mélodie qu'à l'unisson"
-  "Tous ensemble nous écrivions"
-  "Sur le front de ciel des beaux jours"
+  \italic "Mais il nous restera toujours"
+  \italic "La mélodie qu'à l'unisson"
+  \italic "Tous ensemble nous écrivions"
+  \italic "Sur le front de ciel des beaux jours"
 
 }#}
 
@@ -31,10 +31,10 @@
   "Ils ne marcheraient plus en vain."
 
   \vspace #1
-  "Mais il nous restera toujours"
-  "La mélodie qu'à l'unisson"
-  "Tous ensemble nous écrivions"
-  "Sur le front de ciel des beaux jours."
+  \italic "Mais il nous restera toujours"
+  \italic "La mélodie qu'à l'unisson"
+  \italic "Tous ensemble nous écrivions"
+  \italic "Sur le front de ciel des beaux jours."
 }#}
 
 #{ \markuplist {
@@ -49,10 +49,10 @@
   "Sur les plages de Saint-Martin."
 
   \vspace #1
-  "Et il nous restera toujours"
-  "La mélodie qu'à l'unisson"
-  "Tous ensemble nous écrivions"
-  "Sur le front de ciel des beaux jours"
+  \italic "Et il nous restera toujours"
+  \italic "La mélodie qu'à l'unisson"
+  \italic "Tous ensemble nous écrivions"
+  \italic "Sur le front de ciel des beaux jours"
 }#}
 
 ))
