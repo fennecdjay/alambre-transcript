@@ -6,7 +6,7 @@
   "Qu’escomptait pas finir vicaire"
   "Me dit du bout des dents :"
 
-  \italic "Pourquoi chante-tu tant ?"
+  \italic "Pourquoi chantes-tu tant ?"
   \italic "Mais ! Pardi ! Parce que j’aime le vent !"
 }#}
 
@@ -16,7 +16,7 @@
   "Un de ces critèr’s d’la lumière"
   "M’interroge pourtant :"
 
-  \italic "Pourquoi chante-tu tant ?"
+  \italic "Pourquoi chantes-tu tant ?"
   \italic "Mais ! Pardi ! Parce que j’aime le vent !"
 }#}
 
@@ -26,7 +26,7 @@
   "Pourris d’or, gerbant de diamants"
   "Me fait d’un ton méprisant :"
 
-  \italic "Pourquoi chante-tu tant ?"
+  \italic "Pourquoi chantes-tu tant ?"
   \italic "Mais ! Pardi ! Parce que j’aime le vent !"
 }#}
 
