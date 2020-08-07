@@ -9,9 +9,8 @@
     e:m b:7 b:7 g
     g   b:7 c   d
     g   b:7 c   d
-    g   b:7 c   d
-    d   d   g   b:m
-    c   d   d   d
+    g   b:m c   d
+    d   d   d   d
     g   g   g   g
 }
 #})
