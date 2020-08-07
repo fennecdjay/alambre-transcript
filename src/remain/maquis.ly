@@ -11,10 +11,10 @@
   "Sont tombés à l'embuscade"
   "Sans dégoupiller leurs grenades"
 
-  "Tu ne les as pas connus"
-  "Les maquis corréziens"
-  "Tu ne les as pas connus"
-  "Les soldats du petit matin"
+  \italic "Tu ne les as pas connus"
+  \italic "Les maquis corréziens"
+  \italic "Tu ne les as pas connus"
+  \italic "Les soldats du petit matin"
 }#}
 
 #{ \markuplist {
@@ -28,10 +28,10 @@
   "Ils retournaient à la ferme"
   "Vers le toit qu'ils aimaient"
 
-  "Tu ne les as pas connus"
-  "Les maquis corréziens"
-  "Tu ne les as pas connus"
-  "Les soldats du petit matin"
+  \italic "Tu ne les as pas connus"
+  \italic "Les maquis corréziens"
+  \italic "Tu ne les as pas connus"
+  \italic "Les soldats du petit matin"
 }#}
 
 #{ \markuplist {
@@ -45,10 +45,10 @@
   "Toi qui contais leur destin"
   "Aux flammes de cheminées"
 
-  "A ceux qui n'ont pas connu"
-  "Le Maquis corréziens"
-  "Que soient inscrits dans les nues"
-  "Les soldats du petit matin"
+  \italic "Pour ceux qui n'ont pas connu"
+  \italic "Le Maquis corréziens"
+  \italic "Que soient inscrits dans les nues"
+  \italic "Les soldats du petit matin"
 }#}
 
 ))
