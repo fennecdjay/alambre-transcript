@@ -79,6 +79,7 @@ site:
 	@make -s site-readme > site/README.md
 
 site-readme:
+	@printf "# Pour le bal avec Alambre\n\n"
 	@printf "## Le recueil\n\n"
 	@printf "[Le bal de L'alambre](book.pdf)\n\n"
 	@for file in *-single.pdf; \
