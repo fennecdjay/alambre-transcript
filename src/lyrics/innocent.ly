@@ -6,7 +6,7 @@
     Et même sans dout’ celle de Cent Ans
     Me dit tam bour bat tant:
 
-    Pour quoi chan te- tu tant?
+    Pour quoi chan tes- tu tant?
     Mais! Par di! Parce que j’ai me le vent!
 
     Je pré fè re sui vre le vent.
