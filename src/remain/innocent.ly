@@ -22,7 +22,7 @@
 
 #{ \markuplist {
   "Une fille dont les parents"
-  "S’identifiant au Firmament"
+  "S’identifient au Firmament"
   "Pourris d’or, gerbant de diamants"
   "Me fait d’un ton méprisant :"
 
