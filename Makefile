@@ -79,7 +79,6 @@ site:
 	@make -s site-readme > site/README.md
 
 site-readme:
-	@printf "# Transcription de chansons de Jean Alambre\n\n"
 	@printf "## Le recueil\n\n"
 	@printf "[Le bal de L'alambre](book.pdf)\n\n"
 	@for file in *-single.pdf; \
