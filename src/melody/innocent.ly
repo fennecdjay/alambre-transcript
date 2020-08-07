@@ -17,7 +17,7 @@
       des4 r4 des8 ees f ees |
       r1 |
       des4. des8 c des c bes ~ |
-      bes2 r | \break
+      bes2 r | \bar "||" \break
 
       bes'8 bes4. ees,8 f ees des~ |
       des2 r4. f8 |
