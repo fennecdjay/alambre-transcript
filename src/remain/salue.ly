@@ -16,6 +16,7 @@
   "Braves garçons, vauriens"
   "Qui croisiez mon chemin"
 
+  \vspace #1
   "Je vous salue !"
 }#}
 
@@ -35,6 +36,7 @@
   "Auditeurs, musiciens"
   "Sans vous, je ne suis rien"
 
+  \vspace #1
   "Je vous salue !"
 }#}
 
