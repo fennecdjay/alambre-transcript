@@ -1,7 +1,7 @@
 #(define Lyrics #{
   \new Lyrics \lyricsto "Melody" {
 
-    A la source de la col line
+    A la source de la col li ne
     Où nous bu vions nos seize ans
     Je suis mon té ce ma tin
     Pour voir si tour naient en cor’
