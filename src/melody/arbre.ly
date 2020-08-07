@@ -28,7 +28,6 @@
       ges4 r f r |
       ees2         \small {ees8_"(instrumental)" f ges aes | \bar "||" \break
 
-      \bar ".|:"
       bes4 bes ces aes |
       bes ges ees8 f ges aes | 
       bes4 bes aes ges | 
