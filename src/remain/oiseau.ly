@@ -1,21 +1,4 @@
 #(define Remain (list
-#{ \markuplist {
-  "J'étais un chanteur de bourdaine,"
-  "Gardien de tout, semeur de rien,"
-  "Un qui à longueur de semaine"
-  "Comptait les pierres des chemins."
-
-  "Si les chercheurs de chanterelles"
-  "Savaient conduire leurs gamins"
-  "Au devant de leurs citadelles"
-  "Ils ne marcheraient plus en vain."
-
-  \vspace #1
-  "Mais il nous restera toujours"
-  "La mélodie qu'à l'unisson"
-  "Tous ensemble nous écrivions"
-  "Sur le front de ciel des beaux jours"
-}#}
 
 #{ \markuplist {
   "J'aurais dû plus souvent jouer"
@@ -33,4 +16,43 @@
   "La mélodie qu'à l'unisson"
   "Tous ensemble nous écrivions"
   "Sur le front de ciel des beaux jours"
-}#}))
+
+}#}
+
+#{ \markuplist {
+  "J'étais un chanteur de bourdaine,"
+  "Gardien de tout, semeur de rien,"
+  "Un qui à longueur de semaine"
+  "Comptait les pierres des chemins."
+
+  "Si les chercheurs de chanterelles"
+  "Savaient conduire leurs gamins"
+  "Au devant de leurs citadelles"
+  "Ils ne marcheraient plus en vain."
+
+  \vspace #1
+  "Mais il nous restera toujours"
+  "La mélodie qu'à l'unisson"
+  "Tous ensemble nous écrivions"
+  "Sur le front de ciel des beaux jours."
+}#}
+
+#{ \markuplist {
+  "Dans ces brume de novembre"
+  "Entre l'amanite et le houx,"
+  "Avant les rites de décembre"
+  "C'est l'étiage. Je pense à vous."
+
+  "Bonne route petits lutins"
+  "En songeant à l'oiseau blessé"
+  "Sauvé par des bonheurs passés"
+  "Sur les plages de Saint-Martin."
+
+  \vspace #1
+  "Et il nous restera toujours"
+  "La mélodie qu'à l'unisson"
+  "Tous ensemble nous écrivions"
+  "Sur le front de ciel des beaux jours"
+}#}
+
+))
