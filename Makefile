@@ -31,9 +31,9 @@ all: ${single}
 	do\
     make -s single SINGLE=$$(echo $${file} | sed 's#src/\(.*\).ly#\1#');\
 	done
-	make -s book.pdf
+	@make -s book.pdf
 
-book.pdf: ${deps} book.ly
+book.pdf: ${deps} intro.ly book.ly
 	${LY} ${LY_ARGS} book.ly
 
 .PHONY: single
