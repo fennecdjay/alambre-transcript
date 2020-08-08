@@ -7,6 +7,6 @@
     % Les champs suivants sont en opposition sur la même ligne
     arranger = \markup { \teeny "transcription: Jérémie Astor" }
     % Les champs suivants sont centrés en bas de page
-    copyright = "voyage en terre occitanne"
+    copyright = "droit réservé Jean Alambre - 2020"
     tagline = "Plus d'information sur https://jean-alambre.com"
 }
