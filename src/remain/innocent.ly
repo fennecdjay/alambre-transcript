@@ -36,8 +36,12 @@
   "Mais pour qui je n’ai nulle rancune"
   "Me dit d’un air suppliant :"
 
-  \italic "Cesse donc de chanter tant !"
-  \italic "Je me paye sa gueule en chantant !"
+   \italic "Cesse donc de chanter tant !"
+   \concat {
+     \italic "Je me paye sa gueule en chantant !" 
+     \hspace #2
+     \musicglyph #"scripts.coda" 
+   }
 }#}
 
 ))

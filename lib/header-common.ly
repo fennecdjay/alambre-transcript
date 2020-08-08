@@ -5,7 +5,7 @@
     poet = \markup { \tiny "texte: Jean Alambre" }
     composer = \markup { \tiny "musique: Jean Alambre" }
     % Les champs suivants sont en opposition sur la même ligne
-    arranger = ##f
+    arranger = \markup { \teeny "transcription: Jérémie Astor" }
     % Les champs suivants sont centrés en bas de page
     copyright = "voyage en terre occitanne"
     tagline = "Plus d'information sur https://jean-alambre.com"

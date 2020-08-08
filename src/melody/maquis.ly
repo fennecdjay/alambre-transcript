@@ -17,7 +17,6 @@
        a2 r |
        a4 a8 a8 r g g fis |
        fis2 r | \break
-       \bar "||"
 
        b8 b4 cis8 d cis4 b8 |
        a2 r4 fis8 fis |

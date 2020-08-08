@@ -5,16 +5,17 @@
 \book {
 
   \header {
-    dedication = \markup { \column { "Au resistants de touts poils" \vspace #1 } }
-    title = "Le Bal de l'alambre"
-    subtitle = "De la veillée au parquet ..."
-    subsubtitle = \markup { \column { "... et de Paris aux monédières" \vspace #2 } }
+%    dedication = \markup { \column { "Au resistants de touts poils" \vspace #1 } }
+    title = "Des veillées aux parquets"
+%    subtitle = "... et de Paris aux monédières"
+    subsubtitle = "... et de Paris aux monédières"
   }
 
+  \markup \vspace #2
   \include "intro.ly"
+  \noPageBreak
 
-  \markuplist { \vspace #2 \table-of-contents }
-
+  \markuplist { \vspace #2.5 \table-of-contents }
   \pageBreak
 
   \include "colline.ly"  \pageBreak

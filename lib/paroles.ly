@@ -27,7 +27,7 @@
                               #{
                                 \markuplist  {
                                   \numberedLyric #idx #lst
-                                  \vspace #1
+                                  \vspace #1.5
                                   \reste-paroles-interne #(+ 1 idx) #(cdr lst)
                                 }
                               #}

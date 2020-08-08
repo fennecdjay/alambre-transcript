@@ -11,7 +11,7 @@
   "Sauter les flaques à cloche pied"
   "Rien que pour vous faire rigoler."
 
-  \vspace #1
+  \vspace #0.5
   \italic "Mais il nous restera toujours"
   \italic "La mélodie qu'à l'unisson"
   \italic "Tous ensemble nous écrivions"
@@ -30,7 +30,7 @@
   "Au devant de leurs citadelles"
   "Ils ne marcheraient plus en vain."
 
-  \vspace #1
+  \vspace #0.5
   \italic "Mais il nous restera toujours"
   \italic "La mélodie qu'à l'unisson"
   \italic "Tous ensemble nous écrivions"
@@ -48,7 +48,7 @@
   "Sauvé par des bonheurs passés"
   "Sur les plages de Saint-Martin."
 
-  \vspace #1
+  \vspace #0.5
   \italic "Et il nous restera toujours"
   \italic "La mélodie qu'à l'unisson"
   \italic "Tous ensemble nous écrivions"
