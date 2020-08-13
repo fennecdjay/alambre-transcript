@@ -11,6 +11,7 @@
   "Sont tombés à l'embuscade"
   "Sans dégoupiller leurs grenades"
 
+  \vspace #0.5
   \italic "Tu ne les as pas connus"
   \italic "Les maquis corréziens"
   \italic "Tu ne les as pas connus"
@@ -28,6 +29,7 @@
   "Ils retournaient à la ferme"
   "Vers le toit qu'ils aimaient"
 
+  \vspace #0.5
   \italic "Tu ne les as pas connus"
   \italic "Les maquis corréziens"
   \italic "Tu ne les as pas connus"
@@ -45,6 +47,7 @@
   "Toi qui contais leur destin"
   "Aux flammes de cheminées"
 
+  \vspace #0.5
   \italic "Pour ceux qui n'ont pas connu"
   \italic "Le Maquis corréziens"
   \italic "Que soient inscrits dans les nues"

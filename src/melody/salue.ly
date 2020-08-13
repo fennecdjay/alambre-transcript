@@ -3,7 +3,7 @@
     \autoPageBreaksOff
 
     \key g \major
-    \tempo 4 = 120
+    \tempo 4 = 128
     \time 4/4
 
     \relative c'' {

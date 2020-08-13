@@ -7,7 +7,7 @@
         \wordwrap {
           Ces quelques chansons n’ont pas été piochées au hasard dans la centaine que j’ai eu plaisir à commettre depuis 1966.
           Auteur compositeur interprète, j’ai cependant débuté sur les planches au sein d’un orchestre de bal musette, en Corrèze, en 1963.
-          J’en conserve un souvenir ému et considère cet héritage du « baloche » comme l’un des plus précieux qui m’aient été légués.
+          J’en conserve un souvenir ému et considère cet héritage du « baloche » comme l’un des plus précieux qui m’ait été légué.
           Cependant, les chansons de Jean Alambre sont comme le cours d'un ruisseau : vivantes et sinueuses.
           Je souhaitais depuis longtemps les voir jouer en bal pour les raisons que je viens d’exposer.
           Cela exigeait toutefois une adaptation.

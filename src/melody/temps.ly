@@ -8,7 +8,7 @@
 
     \relative c'' {
 
-      \partial 2. c4 c bes
+      \partial 2. g4 c bes
       \break
 
       c2.      ~| c          | r        | c4 d ees   | \break

@@ -14,12 +14,12 @@
       c2 bes8 c aes f~ |
       f8 f8~f4 r8 f f ees | \break
 
-      des4 r4 des8 ees f ees |
+      des4 r4 des8 c des ees |
       r1 |
       des4. des8 c des c bes ~ |
       bes2 r | \bar "||" \break
 
-      bes'8 bes4. ees,8 f ees des~ |
+      bes'8 bes4. a8 f ees des~ |
       des2 r4. f8 |
       bes8 bes bes bes a f a bes ~|
       bes2 r | \bar "||" \break

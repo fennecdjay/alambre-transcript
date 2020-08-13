@@ -6,6 +6,7 @@
   "Qu’escomptait pas finir vicaire"
   "Me dit du bout des dents :"
 
+  \vspace #0.5
   \italic "Pourquoi chantes-tu tant ?"
   \italic "Mais ! Pardi ! Parce que j’aime le vent !"
 }#}
@@ -16,6 +17,7 @@
   "Un de ces critèr’s d’la lumière"
   "M’interroge pourtant :"
 
+  \vspace #0.5
   \italic "Pourquoi chantes-tu tant ?"
   \italic "Mais ! Pardi ! Parce que j’aime le vent !"
 }#}
@@ -26,6 +28,7 @@
   "Pourris d’or, gerbant de diamants"
   "Me fait d’un ton méprisant :"
 
+  \vspace #0.5
   \italic "Pourquoi chantes-tu tant ?"
   \italic "Mais ! Pardi ! Parce que j’aime le vent !"
 }#}
@@ -36,12 +39,13 @@
   "Mais pour qui je n’ai nulle rancune"
   "Me dit d’un air suppliant :"
 
-   \italic "Cesse donc de chanter tant !"
-   \concat {
-     \italic "Je me paye sa gueule en chantant !" 
-     \hspace #2
-     \musicglyph #"scripts.coda" 
-   }
+  \vspace #0.5
+  \italic "Cesse donc de chanter tant !"
+  \concat {
+    \italic "Je me paye sa gueule en chantant !" 
+    \hspace #2
+    \musicglyph #"scripts.coda" 
+  }
 }#}
 
 ))

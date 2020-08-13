@@ -9,17 +9,17 @@
     \relative c'' {
       bes4. ges8 ges4 ges |
       aes4. f8 r2       |
-      r4. ges8 \times 2/3 { ges4 ges aes } |
+      r4. ges8 ges ges4 aes8 |
       f2 r | \break
 
       bes4. ges8 ges4 ges |
       aes4. f8 r2       |
-      r4. ges8 \times 2/3 { ges4 f ees } |
+      r4. ges8 ges f4 ees8 |
       f2 r | \break
 
-      r4. ees8 \times 2/3 { ees4 f ges } |
+      r4. ees8 ees f4 ges8 |
       aes4. f8 r2       |
-      r4. ges8 \times 2/3 { f4 ges aes } |
+      r4. ges8 f ges4 aes8 |
       bes1  | \break
 
 
