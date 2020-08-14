@@ -1,8 +1,17 @@
-\markup {
-  \vspace #2
+\markuplist {
+%  \vspace #2
+
+  \fill-line {
+      \epsfile #X #20 "./logo.eps"
+%      \with-dimensions #'(0 . 5) #'(0 . 10)
+  }
+  \vspace #0.5
+  \teeny \italic \fill-line {
+     \null \bold "Note de l’auteur" \null
+  }
+  \vspace #0.5
   \teeny \italic \fill-line {
     \center-column {
-      \bold "Note de l’auteur"
       \override #'(line-width . 75) {
         \wordwrap {
           Ces quelques chansons n’ont pas été piochées au hasard dans la centaine que j’ai eu plaisir à commettre depuis 1966.

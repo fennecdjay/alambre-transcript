@@ -3,7 +3,7 @@ SINGLE    ?=
 LY        ?= lilypond
 LY_ARGS   ?= -I src -I lib
 WAIT      ?= inotifywait
-WAIT_ARGS ?= -q -r src -r lib book.ly
+WAIT_ARGS ?= -q -r src -r lib book.ly intro.ly
 LINK      ?=
 PDF       ?=
 
@@ -26,14 +26,14 @@ endif
 
 deps = ${lib} ${src} ${melody} ${lyrics} ${chords} ${remain}
 
-all: ${single}
+all: ${single} book.pdf
 	@for file in ${src}; \
 	do\
     make -s single SINGLE=$$(echo $${file} | sed 's#src/\(.*\).ly#\1#');\
 	done
 	@make -s book.pdf
 
-book.pdf: ${deps} intro.ly book.ly
+book.pdf: intro.ly ${deps} intro.ly
 	${LY} ${LY_ARGS} book.ly
 
 .PHONY: single
