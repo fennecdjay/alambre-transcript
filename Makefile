@@ -79,9 +79,9 @@ site:
 	@make -s site-readme > site/README.md
 
 site-readme:
-	@printf "# Pour le bal avec Alambre\n\n"
+	@printf "# Des veillées aux parquets\n\n"
 	@printf "## Le recueil\n\n"
-	@printf "[Le bal de L'alambre](book.pdf)\n\n"
+	@printf "[Des veillées aux parquets](book.pdf)\n\n"
 	@for file in *-single.pdf; \
    do cp *.pdf site;         \
    done
